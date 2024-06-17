@@ -22,35 +22,35 @@ function Home() {
         {/* first row of apps */}
         <div className=" p-4 rounded-lg shadow-md flex flex-col items-center hover:shadow-xl">
             <img src={calculator} ></img>
-            <p className='text-center'><a href='/calcultor'>Calculator</a></p>
+            <p className='text-center'><a href='/calculator'>Calculator</a></p>
         </div>
-        <div className="p-4 rounded-lg shadow-md flex flex-col items-center">
+        <div className="p-4 rounded-lg shadow-md flex flex-col items-center hover:shadow-xl">
             <img src={timer} ></img>
             <p className='text-center'><a href='/timer'>Timer</a></p>
         </div>
-        <div className="p-4 rounded-lg shadow-md flex flex-col items-center">
+        <div className="p-4 rounded-lg shadow-md flex flex-col items-center hover:shadow-xl">
             <img src={alarm} ></img>
             <p className='text-center'><a href='/clock'>Clock</a></p>
         </div>
         {/* second row of apps */}
-        <div className=" p-4 rounded-lg shadow-md flex flex-col items-center">
+        <div className=" p-4 rounded-lg shadow-md flex flex-col items-center hover:shadow-xl">
             <img src={notes} ></img>
             <p className='text-center'><a href='/notes'>Notes</a></p>
         </div>
-        <div className="p-4 rounded-lg shadow-md flex flex-col items-center">
+        <div className="p-4 rounded-lg shadow-md flex flex-col items-center hover:shadow-xl">
             <img src={weather} ></img>
             <p className='text-center'><a href='/weather-app'>Weather app</a></p>
         </div>
-        <div className="p-4 rounded-lg shadow-md flex flex-col items-center">
+        <div className="p-4 rounded-lg shadow-md flex flex-col items-center hover:shadow-xl">
             <img src={horoscope} className="p-4"></img>
             <p className='text-center'><a href='/horosccope'>Horoscope</a></p>
         </div>
         {/* third row of apps */}
-        <div className=" p-4 rounded-lg shadow-md flex flex-col items-center">
+        <div className=" p-4 rounded-lg shadow-md flex flex-col items-center hover:shadow-xl">
             <img src={magicball} ></img>
-            <p className='text-center'><a href='/magic-8-ball'>Magic 8 ball</a></p>
+            <p className='text-center'><a href='/magic_ball'>Magic 8 ball</a></p>
         </div>
-        <div className="p-4 rounded-lg shadow-md flex flex-col items-center">
+        <div className="p-4 rounded-lg shadow-md flex flex-col items-center hover:shadow-xl">
             <img src={top_10} ></img>
             <p className='text-center'><a href='/top-10'>Todays top 10 hit songs</a></p>
         </div>
